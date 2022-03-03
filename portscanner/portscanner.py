@@ -3,7 +3,7 @@ import termcolor
 
 
 def scan(target, ports):
-    for port in range(1, ports):
+    for port in range(1, int(ports)):
         scan_port(target, port)
 
 
@@ -14,7 +14,8 @@ def scan_port(ipaddress, port):
         print(f"[+] Port {str(port)} opened")
         sock.close()
     except:
-        print(f"[-] Port {str(port)} closed")
+        # print(f"[-] Port {str(port)} closed")
+        pass
 
 
 targets = input("[*] Enter targets to scan (separated by ,):")
