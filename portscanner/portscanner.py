@@ -3,6 +3,7 @@ import termcolor
 
 
 def scan(target, ports):
+    print(f"\n Starting scan for {str(target)}")
     for port in range(1, int(ports)):
         scan_port(target, port)
 
