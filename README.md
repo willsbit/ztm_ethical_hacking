@@ -1,1 +1,1 @@
-# ztm_ethical_hacking
+Ethical Hacking Bootcamp 2022
