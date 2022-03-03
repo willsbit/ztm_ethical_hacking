@@ -23,7 +23,7 @@ targets = input("[*] Enter targets to scan (separated by ,):")
 ports = input("[*] How many ports to scan (int):")
 
 if ',' in targets:
-    print("[*] Scanning multiple targets")
+    print(termcolor.colored("[*] Scanning multiple targets", 'green'))
     for target in targets.split(','):
         scan(target.strip(), ports)
 else:
