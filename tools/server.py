@@ -23,6 +23,8 @@ def target_communication():
         reliable_send(command)
         if command == "quit":
             break
+        elif command[:3] == "cd ":
+            pass
         else:
             result = reliable_recv()
             print(result)
