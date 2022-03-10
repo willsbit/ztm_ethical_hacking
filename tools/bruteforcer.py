@@ -2,10 +2,10 @@ import requests
 from termcolor import colored
 
 url = input("[+] Input an url:")
-username = input("[+] Eter username for the account to bruteforce:")
-password_file = input("[+] Enter password file to use:")
-login_failed_string = input("[+] Enter string that occurs when login fails:")
-cookie_value = input("[+] Enter cookie value (optional):")
+username = input("[*] Enter username for the account to bruteforce:")
+password_file = input("[*] Enter password file to use:")
+login_failed_string = input("[*] Enter string that occurs when login fails:")
+cookie_value = input("[*] Enter cookie value (optional):")
 
 def cracking(username, url):
     for password in passwords:
