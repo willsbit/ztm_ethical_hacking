@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b9be1e4-dbdc-42cd-a39b-2e2282c47c91" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rGraphicsSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tools.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backdoor.spec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/backdoor/Analysis-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/backdoor/EXE-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/backdoor/PKG-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/backdoor/PYZ-00.pyz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/backdoor/PYZ-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/backdoor/Tree-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/backdoor/Tree-01.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/backdoor/Tree-02.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/backdoor/backdoor.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/backdoor/backdoor.pkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/backdoor/base_library.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/backdoor/warn-backdoor.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/backdoor/xref-backdoor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/backdoor.exe" beforeDir="false" />
+    <list default="true" id="1b9be1e4-dbdc-42cd-a39b-2e2282c47c91" name="Changes" comment="Re-compiling backdoor.py, fixing venv issues">
+      <change afterPath="$PROJECT_DIR$/bruteforcer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -55,6 +43,29 @@
       <option name="presentableId" value="Default" />
       <updated>1646763535296</updated>
     </task>
+    <task id="LOCAL-00001" summary="Re-compiling backdoor.py, fixing venv issues">
+      <created>1646763754924</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646763754924</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Re-compiling backdoor.py, fixing venv issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Re-compiling backdoor.py, fixing venv issues" />
   </component>
 </project>
