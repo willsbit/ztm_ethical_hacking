@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b9be1e4-dbdc-42cd-a39b-2e2282c47c91" name="Changes" comment="Re-compiling backdoor.py, fixing venv issues">
-      <change afterPath="$PROJECT_DIR$/bruteforcer.py" afterDir="false" />
+    <list default="true" id="1b9be1e4-dbdc-42cd-a39b-2e2282c47c91" name="Changes" comment="Fixing typos and style changes in bruteforcer">
+      <change afterPath="$PROJECT_DIR$/directories.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,21 @@
       <option name="project" value="LOCAL" />
       <updated>1646763754924</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creating a simple bruteforcer in python">
+      <created>1646923074532</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646923074532</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixing typos and style changes in bruteforcer">
+      <created>1646923292446</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646923292446</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -66,6 +80,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Re-compiling backdoor.py, fixing venv issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Re-compiling backdoor.py, fixing venv issues" />
+    <MESSAGE value="Creating a simple bruteforcer in python" />
+    <MESSAGE value="Fixing typos and style changes in bruteforcer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing typos and style changes in bruteforcer" />
   </component>
 </project>
